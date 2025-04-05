@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.5" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.5" pages="8">
   <diagram name="Page-1" id="g3Ka50H-zHAHqd67mOWE">
     <mxGraphModel dx="1730" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1070,6 +1070,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lz-av05S7sD-LdTX-TUf-57" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2600" width="450" height="960" as="geometry" />
+        </mxCell>
         <mxCell id="lz-av05S7sD-LdTX-TUf-1" value="GraphQL : it is a query language for apis and a runtime for executing those queries with your existing data. it will have single end point.&amp;nbsp; &amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Graphql Vs Rest&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;workflow&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;example&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="110" width="410" height="160" as="geometry" />
         </mxCell>
@@ -1093,6 +1096,9 @@
         </mxCell>
         <mxCell id="lz-av05S7sD-LdTX-TUf-9" value="Graphql server if your backend app ==&amp;gt; we are using graphql&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="1595" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-10" target="lz-av05S7sD-LdTX-TUf-41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lz-av05S7sD-LdTX-TUf-10" value="Graphql client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="1590" width="280" height="115" as="geometry" />
@@ -1178,6 +1184,95 @@
         <mxCell id="lz-av05S7sD-LdTX-TUf-39" value="same details will be shared with the Schema method&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1170" y="2430" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-41" value="Over the UI" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1812.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-43" target="lz-av05S7sD-LdTX-TUf-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-43" target="lz-av05S7sD-LdTX-TUf-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-43" value="apollo Client lib" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-44" target="lz-av05S7sD-LdTX-TUf-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-44" value="Graphql Lib" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-46" target="lz-av05S7sD-LdTX-TUf-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-46" value="based on the FE we need integrator lib (apollo + FE integrator lib to consume apollo)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="2800" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-49" target="lz-av05S7sD-LdTX-TUf-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-49" value="query or mutations" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="3030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-51" target="lz-av05S7sD-LdTX-TUf-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-51" value="Graphql server" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="3170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-53" target="lz-av05S7sD-LdTX-TUf-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-53" value="it will connect wiht service or models&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="3310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-55" value="either it will fetch the data or it will perform insert/ update/ delete" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="3450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Zb2HixYFwP2EaByxC8S-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-58" target="5Zb2HixYFwP2EaByxC8S-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-58" value="Apollo Federation(api gateway) supergraph ==&amp;gt; have mapping for subgraphs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="3650" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5Zb2HixYFwP2EaByxC8S-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Zb2HixYFwP2EaByxC8S-1" target="lz-av05S7sD-LdTX-TUf-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Zb2HixYFwP2EaByxC8S-1" value="graphqlService 1(subgraph)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Zb2HixYFwP2EaByxC8S-2" value="graphqlservice 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Zb2HixYFwP2EaByxC8S-3" value="graphqlService 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="3810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Zb2HixYFwP2EaByxC8S-4" value="Clients" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Zb2HixYFwP2EaByxC8S-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Zb2HixYFwP2EaByxC8S-5" target="5Zb2HixYFwP2EaByxC8S-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Zb2HixYFwP2EaByxC8S-5" value="Cross Cutting concerns" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="3650" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5Zb2HixYFwP2EaByxC8S-8" value="we will implement them in diff modules and we will apply them @ one place&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="815" y="3630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Zb2HixYFwP2EaByxC8S-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.541;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5Zb2HixYFwP2EaByxC8S-3" target="lz-av05S7sD-LdTX-TUf-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Zb2HixYFwP2EaByxC8S-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.543;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5Zb2HixYFwP2EaByxC8S-2" target="lz-av05S7sD-LdTX-TUf-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cVNj-Zk8eBdf_Y6pGmEE" name="microservices">
+    <mxGraphModel dx="1044" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
