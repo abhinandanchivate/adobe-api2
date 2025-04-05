@@ -1066,7 +1066,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xVGlBnjQykvD0BV3Xy8K" name="graphQL">
-    <mxGraphModel dx="1044" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="870" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1084,6 +1084,99 @@
         </mxCell>
         <mxCell id="lz-av05S7sD-LdTX-TUf-5" value="Why graphql :&amp;nbsp;&lt;div&gt;1. single end point :&amp;nbsp; unlike rest api where you have multiple endpoints butt graphql uses single end point to serve all types of queries (retrieval work get method usage) and mutation (post, put, delete)&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Precise data fetching : Clients can request only the data they need.&amp;nbsp; no more over-fetching or under-fetching.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="90" y="790" width="610" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-7" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://images.ctfassets.net/fo9twyrwpveg/51ougEMeVZAQbRTCD5YpoX/5abb9860b2ba7356860010b9ff23a036/image4.png?fm=webp&amp;w=3840&amp;q=100;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1100" width="520" height="293" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-8" value="To use the graphql on any platform ===&amp;gt; we need the integrator lib to develop the graphql queries and mutation&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1460" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-9" value="Graphql server if your backend app ==&amp;gt; we are using graphql&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1595" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-10" value="Graphql client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1590" width="280" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.552;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-12" target="lz-av05S7sD-LdTX-TUf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.552;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-9" target="lz-av05S7sD-LdTX-TUf-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1650" as="sourcePoint" />
+            <mxPoint x="548" y="1653" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-12" value="graphql&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-14" value="1. include the integrator @ server side/ (apollo server)&amp;nbsp;&lt;div&gt;&lt;b&gt;2. schema&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;3. queries&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;4. mutation&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1810" width="400" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2250" width="1230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-16" target="lz-av05S7sD-LdTX-TUf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-16" value="when req will&lt;div&gt;come it will&lt;/div&gt;&lt;div&gt;go to graphql&lt;/div&gt;&lt;div&gt;server&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;only one end point ==&amp;gt; schema&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2270" width="80" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-17" target="lz-av05S7sD-LdTX-TUf-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-17" value="it will check the schema" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-21" target="lz-av05S7sD-LdTX-TUf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-21" target="lz-av05S7sD-LdTX-TUf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-21" value="check" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-23" target="lz-av05S7sD-LdTX-TUf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-23" value="if it is a query, then will check the query&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-25" target="lz-av05S7sD-LdTX-TUf-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-25" value="if it is a mutation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-27" target="lz-av05S7sD-LdTX-TUf-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-27" value="will connect with model/repo to get the data from DB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-29" target="lz-av05S7sD-LdTX-TUf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-29" value="it will connect with model / repo to perform insert/update/delete on the entity" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-31" target="lz-av05S7sD-LdTX-TUf-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-31" value="will generate the required data based on the method" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-35" value="same details will be shared with Schema&amp;nbsp; method" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-37" target="lz-av05S7sD-LdTX-TUf-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-37" value="will perform the ops on db and will share the modified / inserted / deleted status&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-39" value="same details will be shared with the Schema method&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
