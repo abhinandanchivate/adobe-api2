@@ -1269,10 +1269,152 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cVNj-Zk8eBdf_Y6pGmEE" name="microservices">
-    <mxGraphModel dx="1044" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2615" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="y0USK1LZOCw_N5bXepBV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-1" target="y0USK1LZOCw_N5bXepBV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-1" value="monolith application&amp;nbsp;&lt;div&gt;more traffic ==&amp;gt; we have to scale up the entire application ===&amp;gt; will it cost much more.===&amp;gt; will impact the revenu.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-2" target="y0USK1LZOCw_N5bXepBV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-2" value="microservices : small targeted services which will perform the specific task." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="280" width="410" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-4" value="MSA(microservice Architecture" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-6" target="y0USK1LZOCw_N5bXepBV-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-6" value="Config server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="230" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-7" target="y0USK1LZOCw_N5bXepBV-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-7" value="Discovery Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="490" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-8" target="y0USK1LZOCw_N5bXepBV-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-8" value="API GateWay" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-9" target="y0USK1LZOCw_N5bXepBV-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="890" />
+              <mxPoint x="210" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-9" value="Auth Service(MS6)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-10" value="MS2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#B5739D;fillColor=#f8cecc;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-11" target="y0USK1LZOCw_N5bXepBV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#B5739D;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-11" target="y0USK1LZOCw_N5bXepBV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-11" value="MS1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-12" value="MS3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-13" value="MS4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-14" value="MS5" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFB570;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-10" target="y0USK1LZOCw_N5bXepBV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.827;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFB570;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-10" target="y0USK1LZOCw_N5bXepBV-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="700" />
+              <mxPoint x="329" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.93;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-9" target="y0USK1LZOCw_N5bXepBV-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="820" />
+              <mxPoint x="450" y="820" />
+              <mxPoint x="450" y="606" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.673;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3333FF;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-14" target="y0USK1LZOCw_N5bXepBV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.86;entryY=0.877;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3333FF;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-14" target="y0USK1LZOCw_N5bXepBV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-24" target="y0USK1LZOCw_N5bXepBV-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-24" value="it is responsible for providing the configuration to each service" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="230" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-26" target="y0USK1LZOCw_N5bXepBV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-26" value="db url , credentials, api tokens , some imp data / values&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="430" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-28" target="y0USK1LZOCw_N5bXepBV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-28" value="it will hold it over the github" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-30" value="with respect to profile we will hold it over the git for providing the configurations to the specific server." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="445" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-32" target="y0USK1LZOCw_N5bXepBV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-32" value="it is helping the other services to check whether the service is up and running or livelyness of the service" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="690" y="550" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-34" target="y0USK1LZOCw_N5bXepBV-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-34" value="by sending the pulse to every service&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="910" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-36" value="it will hold all instances of a specific service (master and slaves)" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-38" target="y0USK1LZOCw_N5bXepBV-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-38" value="would be the entry point for ur MSA. it will have all routings to ur all microservices" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0USK1LZOCw_N5bXepBV-40" target="y0USK1LZOCw_N5bXepBV-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-40" value="we can apply the security over the gateway via JWT." style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0USK1LZOCw_N5bXepBV-42" value="APISIX(apache), CongAPI(paid version) , APIGATEWAY(netfilx)" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="1110" width="210" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
