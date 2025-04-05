@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.5" pages="7">
   <diagram name="Page-1" id="g3Ka50H-zHAHqd67mOWE">
     <mxGraphModel dx="1730" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1061,6 +1061,29 @@
             <mxPoint x="500" y="220" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xVGlBnjQykvD0BV3Xy8K" name="graphQL">
+    <mxGraphModel dx="1044" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lz-av05S7sD-LdTX-TUf-1" value="GraphQL : it is a query language for apis and a runtime for executing those queries with your existing data. it will have single end point.&amp;nbsp; &amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Graphql Vs Rest&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;workflow&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;example&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lz-av05S7sD-LdTX-TUf-2" target="lz-av05S7sD-LdTX-TUf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-2" value="1. get all employee info&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. get emp info by id&lt;/span&gt;&lt;div&gt;3. get emps info by dept&lt;/div&gt;&lt;div&gt;4. get emps info by DOB&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="50" y="380" width="560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-3" value="with graphql would be 1 against multiple rest apis" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="590" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lz-av05S7sD-LdTX-TUf-5" value="Why graphql :&amp;nbsp;&lt;div&gt;1. single end point :&amp;nbsp; unlike rest api where you have multiple endpoints butt graphql uses single end point to serve all types of queries (retrieval work get method usage) and mutation (post, put, delete)&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Precise data fetching : Clients can request only the data they need.&amp;nbsp; no more over-fetching or under-fetching.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="90" y="790" width="610" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
